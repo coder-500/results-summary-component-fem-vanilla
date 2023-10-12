@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="main">
+
+    <!-- Container for two cards -->
+
+    <div class="container">
+
+      <!-- Left Card -->
+
+      <div class="card left-card">
+        <h1 class="card-name">Your Result</h1>
+        <p class="total"><span class="score">76</span><span class="outof">of 100</span></p>
+
+        <h2 class="complement">Great</h2>
+        <p class="comment">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+
+      <!-- Right Card -->
+
+      <div class="card right-card">
+        <h2 class="card-name">Summary</h2>
+
+        <li class="result reaction"><img src="../assets/images/icon-reaction.svg" alt="reaction">Reaction <span>80
+            <span class="outof">/
+              100</span></span></li>
+
+        <li class="result memory"><img src="../assets/images/icon-memory.svg" alt="memory">Memory <span>92 <span
+              class="outof">/
+              100</span></span>
+        </li>
+
+        <li class="result verbal"><img src="../assets/images/icon-verbal.svg" alt="verbal">Verbal <span>61 <span
+              class="outof">/
+              100</span></span>
+        </li>
+
+        <li class="result visual"><img src="../assets/images/icon-visual.svg" alt="visual">Visual <span>72 <span
+              class="outof">/
+              100</span></span>
+        </li>
+
+        <button type="submit" class="btn">Continue</button>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+          href="https://twitter.com/@iamsouvik_b" target="_blank">Souvik Bhattacharjee</a>.
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
